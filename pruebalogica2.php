@@ -13,4 +13,7 @@
             return implode(" ", $nuevas_palabras);
         }
     }
+
+    $clase = new PruebaLogica2();
+    echo $clase->palabras("Hola, mi nombre es Daniel Mesa Moreno");
 ?>
