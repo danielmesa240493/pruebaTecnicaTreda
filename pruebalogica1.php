@@ -10,4 +10,7 @@
         return $suma;
       }
     }
+
+    $clase = new PruebaLogica1();
+    echo $clase->multiplos(10);
 ?>  
